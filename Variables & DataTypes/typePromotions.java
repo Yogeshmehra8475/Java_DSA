@@ -4,6 +4,7 @@ public class typePromotions {
         char b = 'b';
         System.out.println((int) a);
         System.out.println((int) b);
-        System.out.println(b-a);
+        System.out.println(b-a);   //tyoe promotion only goes when their are expressions
     }
 }
+  

@@ -8,5 +8,16 @@ public class arithmeticOperator {
     System.out.println("Multiply : "+(A*B));
     System.out.println("Divide : "+(A/B));
     System.out.println("Modulo : "+(A%B));
-    }
+
+    int c = 10;
+    int d = c++;
+    int e = ++c;
+    int f = c--;
+    System.out.println(c);  
+    System.out.println(d);
+    System.out.println(e);
+    System.out.println(f);    
+    System.out.println(--c);
+    System.out.println(c);    
+}
 }
