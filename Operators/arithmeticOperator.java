@@ -10,6 +10,7 @@ public class arithmeticOperator {
     System.out.println("Modulo : "+(A%B));
 
     int c = 10;
+    System.out.println(c);  
     int d = c++;
     int e = ++c;
     int f = c--;
