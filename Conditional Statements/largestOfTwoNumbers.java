@@ -3,10 +3,10 @@ public class largestOfTwoNumbers {
         int a = 1;
         int b = 3;
     if (a>=b){
-        System.out.println("The larger number is a");
+        System.out.println("The larger number is a that is " +a);
     }
     else{
-        System.out.println("The larger number is b");
+        System.out.println("The larger number is b that is " +b);
     }
     }
 }
