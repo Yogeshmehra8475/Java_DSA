@@ -8,8 +8,9 @@ public class primeNumber {
         if(number == 2){
             System.out.println("Number is prime");
         }
+        else{
         boolean isPrime = true;
-        for(int i=2; i<=number-1;i++){
+        for(int i=2; i<=Math.sqrt(number);i++){
             if(number % i==0){
                 isPrime = false;
             }
@@ -21,4 +22,5 @@ public class primeNumber {
             System.out.println("Number is not prime");
         }
     }
+}
 }
