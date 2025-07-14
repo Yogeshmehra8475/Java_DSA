@@ -9,4 +9,4 @@ public class invertedStarPattern{
             System.out.println();
         }
     }
-}
+}d

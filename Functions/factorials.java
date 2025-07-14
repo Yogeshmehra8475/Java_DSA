@@ -11,3 +11,4 @@ public class factorials {
         System.out.println(factorial(5));
     }
 }
+ 
