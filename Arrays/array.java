@@ -14,16 +14,24 @@ public class array {
        marks[2] = sc.nextInt();
 
        //Output in Array
-         System.out.println("The marks of Physics is: " + marks[0]);
-        System.out.println("The marks of Chemistry is: " + marks[1]);
-        System.out.println("The marks of Maths is: " + marks[2]);
+         System.out.println("The marks of Physics is : " + marks[0]);
+        System.out.println("The marks of Chemistry is : " + marks[1]);
+        System.out.println("The marks of Maths is : " + marks[2]);
 
-        //Updating the marks
-        marks [2] = marks[2] + 2;
-        System.out.println("New Updated marks of Maths is :" + marks[2]);
+        //Updating the marks\
+
+        // marks [2] = marks[2] + 2;
+        // System.out.println("New Updated marks of Maths is :" + marks[2]);
           
-          //Or
-          marks [1]= 99;
-          System.out.println("New Updated marks of Chemistry is :" + marks[1]);
+        //   //Or
+        //   marks [1]= 99;
+        //   System.out.println("New Updated marks of Chemistry is :" + marks[1]);
+
+        // Calculating percentange of all the subjects
+        int percentage = (marks[0] + marks[1] + marks[2]) / 3;
+        System.out.println("Your overall percentage is: " + percentage + "%");
+
+        //Length of the Array
+        System.out.println("The Length of the Array is : " +marks.length);
     }
 }
