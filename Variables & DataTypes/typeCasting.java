@@ -5,5 +5,6 @@ public class typeCasting {
         float a = 2.4f;
         int b = (int) a;
         System.out.println(b);
+        sc.close();
     }
 }

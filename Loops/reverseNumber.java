@@ -13,6 +13,7 @@ public class reverseNumber {
 
         }
         System.out.println(rev);
+        sc.close();
  
     }
 }
